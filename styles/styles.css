@@ -1,3 +1,11 @@
+.module1{
+    width: 1400px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
 body{
     font-family: 'Manrope';
 }
@@ -25,7 +33,7 @@ h1{
 }
 
 .fons-room {
-    width: 1150;
+    width: 1150px;
     height: 500px;
     background-image: url('../resources/fons-room.png');
     background-size: cover;
@@ -51,9 +59,10 @@ h1{
     height: 518px;
     box-sizing: border-box;
     margin-left: 125px;
+    margin-bottom: 150px;
 }
 
-h2{
+.about-us{
     font-size: 18px;
     line-height: 25px;
     font-weight: 400;
@@ -90,5 +99,162 @@ h2{
 .btn:hover{
     color: #121212;
 }
+
+.container_projects{
+    Width: 1150px;
+    Height: 2122px;
+    box-sizing: border-box;
+    margin-left: 125px;
+    margin-bottom: 150px;
+}
+
+.projects{
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #121212;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.box1150{
+    margin: 0 0 150px 0;
+}
+
+.apartment1{
+    margin: 0 0 15px 0;
+
+}
+
+.apartment1-text{
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+
+.apartment1-info-btn{
+    display: block;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #AD1818;
+    text-decoration: none;
+    margin-bottom: 90px;
+}
+
+.apartment2{
+    margin: 0 0 15px 0;
+}
+
+.apartment2-text{
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+
+.apartment2-info-btn{
+    display: block;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #AD1818;
+    text-decoration: none;
+    margin-bottom: 90px;
+}
+
+.apartment3{
+    margin: 0 0 15px 0;
+}
+
+.apartment3-text{
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+
+.apartment3-info-btn{
+    display: block;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #AD1818;
+    text-decoration: none;
+    margin-bottom: 90px;
+}
+
+.allapartment-btn{
+    display: block;
+    height: 153px;
+    border: 1px solid #AD1818;
+    color: #AD1818;
+    text-align: center;
+    font-size: 30px;
+    line-height: 153px;
+    text-decoration: none;
+    border-radius: 5px;
+    letter-spacing: -0.03em;
+
+}
+
+.allapartment-btn:hover{
+    background: #AD1818;
+    color: #FFFFFF;
+}
+
+.section{
+    background-color: #121212;
+}
+
+.container_box{
+    width: 1400px;
+    height: 1844px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+}
+
+.services{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color:#FFFFFF;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    position: absolute;
+    top: 151px;
+    left: 127px;
+
+}
+
+.services_photo_1{
+    position: absolute;
+    top: 210px;
+    left: 125px;
+
+}
+
+.services_text_1{
+    position: absolute;
+    top: 495px;
+    left: 128px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+
+}
+
+
 
 
