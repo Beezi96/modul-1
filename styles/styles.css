@@ -1,4 +1,4 @@
-.module1{
+.module_one{
     width: 1400px;
     background: #FFFFFF;
     margin: 0 auto;
@@ -27,9 +27,8 @@ h1{
     height: 120px;
     width: 956px;
     letter-spacing: -0.03em;
-    
     color:  #121212;
-    ;
+
 }
 
 .fons-room {
@@ -37,17 +36,18 @@ h1{
     height: 500px;
     background-image: url('../resources/fons-room.png');
     background-size: cover;
+    box-sizing: border-box;
+    position: relative;
 }
 
-.room {
+.room_text {
     font-size: 20px;
     line-height: 27px;
     font-weight: 400;
     color:  #fff;
-    padding-top: 379px;
-    padding-left: 40px; 
-    padding-bottom: 40px;
-    padding-right: 680px;
+    position: absolute;
+    top: 375px;
+    left: 40px;
     height: 81px;
     width: 430px;
     letter-spacing: -0.03em;
@@ -118,16 +118,16 @@ h1{
     text-transform: uppercase;
 }
 
-.box1150{
-    margin: 0 0 150px 0;
+.list{
+    width: 1150px;
 }
 
-.apartment1{
+.list__apartment_img{
     margin: 0 0 15px 0;
 
 }
 
-.apartment1-text{
+.list__apartment_text{
     margin-bottom: 15px;
     font-weight: 400;
     font-size: 30px;
@@ -136,7 +136,7 @@ h1{
     color: #121212;
 }
 
-.apartment1-info-btn{
+.list__apartment_btn{
     display: block;
     font-size: 20px;
     line-height: 27px;
@@ -146,51 +146,7 @@ h1{
     margin-bottom: 90px;
 }
 
-.apartment2{
-    margin: 0 0 15px 0;
-}
 
-.apartment2-text{
-    margin-bottom: 15px;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 41px;
-    letter-spacing: -0.03em;
-    color: #121212;
-}
-
-.apartment2-info-btn{
-    display: block;
-    font-size: 20px;
-    line-height: 27px;
-    letter-spacing: -0.03em;
-    color: #AD1818;
-    text-decoration: none;
-    margin-bottom: 90px;
-}
-
-.apartment3{
-    margin: 0 0 15px 0;
-}
-
-.apartment3-text{
-    margin-bottom: 15px;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 41px;
-    letter-spacing: -0.03em;
-    color: #121212;
-}
-
-.apartment3-info-btn{
-    display: block;
-    font-size: 20px;
-    line-height: 27px;
-    letter-spacing: -0.03em;
-    color: #AD1818;
-    text-decoration: none;
-    margin-bottom: 90px;
-}
 
 .allapartment-btn{
     display: block;
@@ -212,47 +168,51 @@ h1{
 }
 
 .section{
+    padding: 150px 0 150px 0;
     background-color: #121212;
+    color:#FFFFFF;
+    display: block;
 }
 
 .container_box{
     width: 1400px;
-    height: 1844px;
+    padding: 0 125px;
     box-sizing: border-box;
     margin: 0 auto;
-    position: relative;
+   
 }
 
 .services{
+    margin: 0 0 34px 0;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    color:#FFFFFF;
     letter-spacing: -0.03em;
     text-transform: uppercase;
-    position: absolute;
-    top: 151px;
-    left: 127px;
+    
+}
+
+.list_container{
+    width: 1150px;
+    margin: 0 0 60px 0;
 
 }
 
-.services_photo_1{
-    position: absolute;
-    top: 210px;
-    left: 125px;
-
+.list_container__services_photo{
+    margin: 0 0 15px 0;
+    
 }
 
-.services_text_1{
-    position: absolute;
-    top: 495px;
-    left: 128px;
+.list_container__services_text{
     font-weight: 400;
     font-size: 30px;
     line-height: 41px;
     letter-spacing: -0.03em;
-    color: #FFFFFF;
+    
+}
 
+.last_list {
+    margin-bottom: 0px;
 }
 
 
