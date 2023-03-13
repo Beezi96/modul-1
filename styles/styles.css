@@ -20,20 +20,14 @@ div {
 .module_one{
     background: #FFFFFF;
     width: 100%;
-    /* margin: 0 auto;
-    width: 1400px; */
-    
 }
 
 .nav-section {
-    min-width: 1150px;
     margin: 0 auto;
-    width: 1400px;
+    width: 1150px;
 }
 
 .container-nav {
-    width: 1150px;
-    margin: 0 125px 0 125px;
     padding-top: 33px;
     padding-bottom: 70px;
     box-sizing: border-box;
@@ -231,6 +225,7 @@ div {
 
 .section{
     width: 100%;
+    min-width: 1400px;
     padding: 150px 0 150px 0;
     background-color: #121212;
     color:#FFFFFF;
