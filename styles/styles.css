@@ -2,20 +2,33 @@ html {
     scroll-behavior: smooth;
 }
 
-.module_one{
-    max-width: 1400px;
-    background: #FFFFFF;
-    margin: 0 auto;
-    position: relative;
-    
-}
 
 body{
     font-family: 'Manrope', sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+a,
+p,
+div {
+    letter-spacing: -0.03em;
+}
+
+.module_one{
+    background: #FFFFFF;
+    width: 100%;
+    /* margin: 0 auto;
+    width: 1400px; */
+    
 }
 
 .nav-section {
     min-width: 1150px;
+    margin: 0 auto;
+    width: 1400px;
 }
 
 .container-nav {
@@ -40,27 +53,28 @@ body{
 }
 
 .nav {
-    display: inline-block;
-    vertical-align: text-top;
+    /* display: inline-block;
+    vertical-align: text-top; */
+    float: right;
 }
 
 .nav__link {
-    display: inline-block;
-    height: 25px;
+    /* display: inline-block; */
+    /* height: 25px; */
     line-height: 25px;
     font-size: 18px;
-    letter-spacing: -0.03em;
     text-align: center;
     color: #121212;
     text-decoration: none;
-    margin-right: 60px;
+    margin-right: 58px;
     
 }
 
 .nav__link:hover {
     opacity: 0.5;
-    text-decoration: underline;
-    text-underline-offset: 7px;
+    /* text-decoration: underline; */
+    /* text-underline-offset: 7px; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .last-link {
@@ -68,11 +82,12 @@ body{
 }
 
 .container {
+    margin: 0 auto;
     width: 1150px;
-    height: 650px;
+    /* height: 650px; */
     margin-bottom: 150px;
     box-sizing: border-box;
-    margin-left: 125px;
+   
 }
 
 
@@ -81,9 +96,7 @@ body{
     line-height: 60px;
     font-weight: 400;
     margin-bottom: 30px;
-    height: 120px;
-    width: 956px;
-    letter-spacing: -0.03em;
+    /* width: 956px; */
     color:  #121212;
 
 }
@@ -103,19 +116,18 @@ body{
     font-weight: 400;
     color:  #fff;
     position: absolute;
-    top: 375px;
+    top: 379px;
     left: 40px;
     height: 81px;
     width: 430px;
-    letter-spacing: -0.03em;
     
 }
 
 .container-info {
-    width: 1051px;
+    margin: 0 auto;
+    width: 1150px;
     height: 518px;
     box-sizing: border-box;
-    margin-left: 125px;
     margin-bottom: 150px;
 }
 
@@ -128,13 +140,13 @@ body{
 }
 
 .info {
+    width: 1051px;
     font-size: 45px;
     line-height: 61px;
     font-weight: 400;
     color:  #121212;
-    height: 366px;
-    width: 1048px;
-    letter-spacing: -0.03em;
+    /* height: 366px; */
+    /* width: 1048px; */
     margin-bottom: 30px;
     
 }
@@ -150,16 +162,15 @@ body{
     line-height: 67px;
     text-align: center;
     font-size: 20px;
-    letter-spacing: -0.03em;
     
 }
 
 
 .container_projects{
+    margin: 0 auto;
     Width: 1150px;
     Height: 2122px;
     box-sizing: border-box;
-    margin-left: 125px;
     margin-bottom: 150px;
 }
 
@@ -169,7 +180,6 @@ body{
     font-size: 18px;
     line-height: 25px;
     color: #121212;
-    letter-spacing: -0.03em;
     text-transform: uppercase;
 }
 
@@ -183,11 +193,10 @@ body{
 }
 
 .list__apartment_text{
-    margin-bottom: 15px;
+    margin-bottom: 13px;
     font-weight: 400;
     font-size: 30px;
     line-height: 41px;
-    letter-spacing: -0.03em;
     color: #121212;
 }
 
@@ -195,7 +204,6 @@ body{
     display: block;
     font-size: 20px;
     line-height: 27px;
-    letter-spacing: -0.03em;
     color: #AD1818;
     text-decoration: none;
     margin-bottom: 90px;
@@ -213,7 +221,6 @@ body{
     line-height: 153px;
     text-decoration: none;
     border-radius: 5px;
-    letter-spacing: -0.03em;
 
 }
 
@@ -223,6 +230,7 @@ body{
 }
 
 .section{
+    width: 100%;
     padding: 150px 0 150px 0;
     background-color: #121212;
     color:#FFFFFF;
@@ -230,10 +238,11 @@ body{
 }
 
 .container_box{
-    width: 1400px;
+    /* max-width: 1150px; */
     padding: 0 125px;
     box-sizing: border-box;
     margin: 0 auto;
+    width: 1400px;
    
 }
 
@@ -242,13 +251,12 @@ body{
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: -0.03em;
     text-transform: uppercase;
     
 }
 
 .list_container{
-    width: 1150px;
+    /* width: 1150px; */
     margin: 0 0 60px 0;
 
 }
@@ -261,8 +269,7 @@ body{
 .list_container__services_text{
     font-weight: 400;
     font-size: 30px;
-    line-height: 41px;
-    letter-spacing: -0.03em;
+    line-height: 39px;
     
 }
 
@@ -277,7 +284,7 @@ body{
 
 .image-container {
     height: 717px;
-    width: 100%;
+    /* width: 100%; */
     box-sizing: border-box;
     display: block;
     background-image: url('../resources/image.png');
@@ -291,12 +298,11 @@ body{
 
 .text-image {
     width: 443px;
-    height: 82px;
+    /* height: 82px; */
     font-weight: 400;
     font-size: 30px;
     line-height: 41px;
-    letter-spacing: -0.03em;
-    top: 575px;
+    top: 577px;
     left: 125px;
     color: #FFFFFF;
     position: absolute;
@@ -305,6 +311,7 @@ body{
 }
 
 .contacts-container {
+    width: 1150px;
     margin: 0 auto;
     padding: 0 120px 150px 120px;
 }
@@ -313,7 +320,6 @@ body{
 .information__contacts {
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: -0.03em;
     margin-bottom: 32px;
     color: #121212;
     text-transform: uppercase;
@@ -335,7 +341,6 @@ body{
     margin-bottom: 30px;
     font-size: 60px;
     line-height: 60px;
-    letter-spacing: -0.03em;
     color: #121212;
     display: block;
     text-decoration: none;
@@ -346,7 +351,6 @@ body{
 .information__container-mail {
     font-size: 60px;
     line-height: 60px;
-    letter-spacing: -0.03em;
     color: #121212;
     display: block;
     text-decoration: none;
@@ -373,10 +377,7 @@ body{
 
 .footer__nav-list {
     margin: 0 auto;
-    width: 475px;
-    
-
-    
+    width: 475px;  
 }
 
 
@@ -384,13 +385,11 @@ body{
     height: 25px;
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: -0.03em;
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
     color: #FFFFFF;
     margin-right: 55px;
-    margin-bottom: 87px;
     
 }
 
@@ -403,10 +402,10 @@ body{
 }
 
 .text-footer {
+    margin-top: 87px;
     text-align: center;
     font-size: 20px;
     line-height: 27px;
-    letter-spacing: -0.03em;
     color: #FFFFFF;
     opacity: 0.5;
 }
