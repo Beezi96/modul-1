@@ -1,5 +1,7 @@
 html {
     scroll-behavior: smooth;
+    min-width: 1400px;
+    margin: 0 auto;
 }
 
 
@@ -404,6 +406,7 @@ div {
 }
 
 .text-footer {
+    width: 100%;
     margin-top: 87px;
     margin-right: -5px;
     text-align: center;
@@ -413,9 +416,7 @@ div {
     opacity: 0.5;
 }
 
-*{
-    outline: 1px solid red ;
-}
+
 
 
 
