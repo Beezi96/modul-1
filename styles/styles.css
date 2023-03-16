@@ -304,8 +304,8 @@ div {
     line-height: 41px;
     /* top: 577px;
     left: 125px; */
-    top: 576px;
-    left: 173px;
+    top: 577px;
+    left: 126px;
     color: #FFFFFF;
     position: absolute;
     box-sizing: border-box;
@@ -361,14 +361,14 @@ div {
 .information__container-tel:hover {
     opacity: 0.5;
     text-decoration: underline;
-    text-underline-offset: 10px;
+    text-underline-offset: 17px;
     text-decoration-thickness: 2px;
 }
 
 .information__container-mail:hover {
     opacity: 0.5;
     text-decoration: underline;
-    text-underline-offset: 10px;
+    text-underline-offset: 17px;
     text-decoration-thickness: 2px;
 }
 
